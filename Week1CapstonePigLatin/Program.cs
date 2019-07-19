@@ -46,7 +46,8 @@ namespace Week1CapstonePigLatin
             //the minimum value -1 now, which causes an issue in the range of the clusters below.
             //**thought, we can make another method that sees if the value of the Xvowel variable is -1, if it is, make it ignored in the min() of the array.
             int[] vowelPlaceArray = { Avowel, Evowel, Ivowel, Ovowel, Uvowel };
-            int vowelPlace = vowelPlaceArray.Min();
+            //can you make it where the 
+            int vowelPlace = vowelPlaceArray.Skip(<1).Min();
 
             //do stuff to make the stuff below work
             string consonantCluster = word.Substring(0, vowelPlace); 
