@@ -45,16 +45,19 @@ namespace Week1CapstonePigLatin
             //causes error because if a word doesnt have all of the vowels, the Xvowel variable returns a -1, making 
             //the minimum value -1 now, which causes an issue in the range of the clusters below.
             //**thought, we can make another method that sees if the value of the Xvowel variable is -1, if it is, make it ignored in the min() of the array.
-            int[] vowelPlaceArray = { Avowel, Evowel, Ivowel, Ovowel, Uvowel };
+            int[] vowelPlaceArray = {Avowel, Evowel, Ivowel, Ovowel, Uvowel};
 
             //one of the two lines below will make this whole thing work... gotta find which one will work when fixed
-            int[] vowelPlaceArrayNoMinusOne = vowelPlaceArray.Where(x => vowelPlaceArray[](x)>1).ToArray();
-            int vowelPlace = vowelPlaceArray[x].Skip(x<1).Min();
-
+            if(Avowel!= -1 && Evowel != -1 && Ivowel != -1 && Ovowel != -1 && Uvowel != -1)
+            {
+            int minVal = vowelPlaceArray.Where(x => x<1).Min();
+            Console.WriteLine(minVal);
             //do stuff to make the stuff below work
-            string consonantCluster = word.Substring(0, vowelPlace); 
-            string letterFollowing1stVowel = word.Substring(vowelPlace, wordLength);
+            string consonantCluster = word.Substring(1, minVal);
+            string letterFollowing1stVowel = word.Substring(minVal, wordLength);
             Console.WriteLine($"{letterFollowing1stVowel}" + $"-{consonantCluster}ay");
+            }
+
         }
     }
 }
