@@ -48,15 +48,16 @@ namespace Week1CapstonePigLatin
             int[] vowelPlaceArray = {Avowel, Evowel, Ivowel, Ovowel, Uvowel};
 
             //one of the two lines below will make this whole thing work... gotta find which one will work when fixed
-            if(Avowel!= -1 && Evowel != -1 && Ivowel != -1 && Ovowel != -1 && Uvowel != -1)
-            {
-            int minVal = vowelPlaceArray.Where(x => x<1).Min();
+
+
+            int[] minValArray = vowelPlaceArray.Where(x => x > 0).ToArray();
+            int minVal = minValArray.Min();
             Console.WriteLine(minVal);
             //do stuff to make the stuff below work
-            string consonantCluster = word.Substring(1, minVal);
-            string letterFollowing1stVowel = word.Substring(minVal, wordLength);
+            string consonantCluster = word.Substring(0, minVal);
+            Console.WriteLine(consonantCluster);
+            string letterFollowing1stVowel = word.Substring(minVal, wordLength-1);
             Console.WriteLine($"{letterFollowing1stVowel}" + $"-{consonantCluster}ay");
-            }
 
         }
     }
