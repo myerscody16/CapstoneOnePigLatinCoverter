@@ -19,6 +19,7 @@ namespace Week1CapstonePigLatin
                 {
                     consWord = word;
                     string pigLatinConsWord = HandleConsWords(consWord);
+                    Console.WriteLine(pigLatinConsWord);
                 }
             }
             
@@ -27,7 +28,7 @@ namespace Week1CapstonePigLatin
         public static string[] SplitSentences(string message)
         {
             Console.WriteLine(message);
-            string userSentence = Console.ReadLine();
+            string userSentence = Console.ReadLine().ToLower();
             string[] wordArray = userSentence.Split(' ');
             return wordArray;
 
@@ -35,7 +36,13 @@ namespace Week1CapstonePigLatin
         public static string HandleConsWords(string consWord)
         {
             //need to take in a word that starts with a consonant, then finds where a vowel is indexed at, saves the cluster of 
-            //consonants that came before it, puts them, in order, in between "-" and "ay". 
+            //consonants that came before it, puts them, in order, in between "-" and "ay".
+            int Avowel = consWord.IndexOf('a');
+            int Evowel = consWord.IndexOf('e');
+            int Ivowel = consWord.IndexOf('i');
+            int Ovowel = consWord.IndexOf('o');
+            int Uvowel = consWord.IndexOf('u');
+
         }
     }
 }
