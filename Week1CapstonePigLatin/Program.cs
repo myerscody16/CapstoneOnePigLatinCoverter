@@ -6,12 +6,22 @@ namespace Week1CapstonePigLatin
     {
         static void Main(string[] args)
         {
-            //if vowel starts word, then the word is just follow by -yay
-            //if consonant starts word, that letter, and however many consonants that follow it
-            //will be moved from the word and then is added to a hyphened part following the word, 
-            //which is then followed by -ay.
-            string[] wordArray = SplitSentences("Please input an English word or sentence for conversion to Pig Latin.");
-            SplitWords(wordArray);
+            string[] wordArray = SplitSentences("Please input an English word or sentence for conversion to Pig Latin, then press enter.");
+            foreach (string word in wordArray)
+            {
+                string consWord = "";
+                char[] charArray = word.ToCharArray();
+                if(charArray[0] == 'a' || charArray[0] == 'e' || charArray[0] == 'i' || charArray[0] == 'o' || charArray[0] == 'u')
+                {
+                    Console.WriteLine($"{word}" + "-yay");
+                }
+                else
+                {
+                    consWord = word;
+                    string pigLatinConsWord = HandleConsWords(consWord);
+                }
+            }
+            
         }
 
         public static string[] SplitSentences(string message)
@@ -22,19 +32,10 @@ namespace Week1CapstonePigLatin
             return wordArray;
 
         }
-        //use a method to break an array up into each word, then another method to break up into each letter
-        public static void SplitWords(string[] wordArray)
+        public static string HandleConsWords(string consWord)
         {
-            foreach (string words in wordArray)
-            {
-                char[] letters = words.ToCharArray();
-                if(letters[0] == 'a' || letters[0] == 'e' || letters[0] == 'i' || letters[0] == 'o' || letters[0] == 'u')
-                {
-                    Console.WriteLine($"{words}" + "-ay");
-                }
-                //else if statement that will take in a word that starts with a consonant and do something with it.
-            }
+            //need to take in a word that starts with a consonant, then finds where a vowel is indexed at, saves the cluster of 
+            //consonants that came before it, puts them, in order, in between "-" and "ay". 
         }
-
     }
 }
