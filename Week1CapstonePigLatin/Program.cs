@@ -36,7 +36,7 @@ namespace Week1CapstonePigLatin
             //need to take in a word that starts with a consonant, then finds where a vowel is indexed at, saves the cluster of 
             //consonants that came before it, puts them, in order, in between "-" and "ay".
             int wordLength = word.Length;
-
+            Console.WriteLine(wordLength);
             int Avowel = word.IndexOf('a');
             int Evowel = word.IndexOf('e');
             int Ivowel = word.IndexOf('i');
@@ -56,8 +56,8 @@ namespace Week1CapstonePigLatin
             //do stuff to make the stuff below work
             string consonantCluster = word.Substring(0, minVal);
             Console.WriteLine(consonantCluster);
-            string letterFollowing1stVowel = word.Substring(minVal, wordLength-1);
-            Console.WriteLine($"{letterFollowing1stVowel}" + $"-{consonantCluster}ay");
+            string letterFollowing1stVowel = word.Substring(minVal, wordLength-minVal);
+            Console.WriteLine("\n" + $"{letterFollowing1stVowel}" + $"-{consonantCluster}ay");
 
         }
     }
