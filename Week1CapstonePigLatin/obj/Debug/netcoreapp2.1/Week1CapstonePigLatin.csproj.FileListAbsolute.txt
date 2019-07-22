@@ -9,3 +9,14 @@ C:\Users\myers\source\repos\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debu
 C:\Users\myers\source\repos\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.AssemblyInfo.cs
 C:\Users\myers\source\repos\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.dll
 C:\Users\myers\source\repos\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.pdb
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\bin\Debug\netcoreapp2.1\Week1CapstonePigLatin.deps.json
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\bin\Debug\netcoreapp2.1\Week1CapstonePigLatin.runtimeconfig.json
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\bin\Debug\netcoreapp2.1\Week1CapstonePigLatin.runtimeconfig.dev.json
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\bin\Debug\netcoreapp2.1\Week1CapstonePigLatin.dll
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\bin\Debug\netcoreapp2.1\Week1CapstonePigLatin.pdb
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.csprojAssemblyReference.cache
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.csproj.CoreCompileInputs.cache
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.AssemblyInfoInputs.cache
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.AssemblyInfo.cs
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.dll
+C:\Users\myers\source\repos\Week one tutorials, labs, capstone, and assessment\Week1CapstonePigLatin\Week1CapstonePigLatin\obj\Debug\netcoreapp2.1\Week1CapstonePigLatin.pdb

@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\myers\\source\\repos\\Week1CapstonePigLatin\\Week1CapstonePigLatin\\Week1CapstonePigLatin.csproj",
+      "projectUniqueName": "C:\\Users\\myers\\source\\repos\\Week one tutorials, labs, capstone, and assessment\\Week1CapstonePigLatin\\Week1CapstonePigLatin\\Week1CapstonePigLatin.csproj",
       "projectName": "Week1CapstonePigLatin",
-      "projectPath": "C:\\Users\\myers\\source\\repos\\Week1CapstonePigLatin\\Week1CapstonePigLatin\\Week1CapstonePigLatin.csproj",
+      "projectPath": "C:\\Users\\myers\\source\\repos\\Week one tutorials, labs, capstone, and assessment\\Week1CapstonePigLatin\\Week1CapstonePigLatin\\Week1CapstonePigLatin.csproj",
       "packagesPath": "C:\\Users\\myers\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\myers\\source\\repos\\Week1CapstonePigLatin\\Week1CapstonePigLatin\\obj\\",
+      "outputPath": "C:\\Users\\myers\\source\\repos\\Week one tutorials, labs, capstone, and assessment\\Week1CapstonePigLatin\\Week1CapstonePigLatin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
